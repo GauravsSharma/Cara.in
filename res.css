@@ -1,0 +1,69 @@
+@media screen and (max-width:480px){
+    #blog{
+        padding: 100px 0px 50px 0px;
+    }
+    #blog .blog-box .blog-img {
+        width: 100%;
+        margin-right: 0px;
+    }
+    #blog .blog-box .blog-des {
+        width: 100%;
+        padding: 20px 15px 0px 15px;
+    }
+    #about-head {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    #about-head img{
+        width: 100%;
+    }
+    #about-head div{
+    padding: 30px 0px 0px 0px;    
+  }
+  #about-app .video {
+    width: 100%; 
+  }
+
+  #contact-details {
+    flex-direction: column;
+    padding: 30px 10px;
+  }
+  #contact-details .details {
+    width: 100%;
+    padding: 30px 20px;
+}
+#contact-details .map {
+     width: 100%;
+}
+#form-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+    padding: 20px;  
+}
+#form-details form {
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    align-items: flex-start;
+}
+#form-details .peaple {
+   margin-top: 50px;
+}
+#cart-add {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+#coupon {
+    width: 100%;
+    margin: 30px 10px;
+}
+
+#subtotal {
+    width: 100%;
+}
+}
